@@ -1,5 +1,8 @@
 package domain.state;
 
-public interface CounterState {
-    
+import domain.Counter;
+
+public interface CounterState {    
+    void decrement(Counter counter);
+    void increment(Counter counter);
 }
